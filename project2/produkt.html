@@ -9,71 +9,82 @@
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 </head>
 <body role="document">
+
+    <!-- Här har vi våra breadcrums -->
     <ol class="breadcrumb">
         <li><a href="index.html">Startsida</a></li>
         <li><a href="index.html">Electricitet</a></li>
         <li><a href="index.html">Vindkraftverk</a></li>
     </ol>
+
+    <!-- Här har vi vårt huvud innehåll -->
     <div class="container theme-showcase" role="main">
         <div class="page-header">
             <h1>Smidigt vindkraftverk med bra effekt upptagning. 3MW</h1>
         </div>
-    <div class="row">
-        <div class="col-xs-6 col-md-2">
-            <a href="img/vindkraftverk.jpg" class="thumbnail">
-                <img src="img/vindkraftverk.jpg" alt="produktbild på ett vindkraftverk">
-            </a>
 
-        </div>
-    </div>
-
-            <ul class="nav nav-tabs" id="myTab">
-                <li role="presentation" class="active"><a href="#Beskrivning">Beskrivning</a></li>
-                <li role="presentation"><a href="#Funktioner">Funktioner</a></li>
-                <li role="presentation"><a href="#Fakta">Fakta</a></li>
-                <li role="presentation"><a href="#Bilder">Bilder</a></li>
-                <li role="presentation"><a href="#Övrigt">Övrigt</a></li>
-            </ul>
-
-            <div class="tab-content">
-                <div id="Beskrivning" class="tab-pane fade in active">
-                    <h3>Beskrivning</h3>
-                    <p>Perfekt för att skapa elektricitet med hjälp av vinden. För att göra detta användes en stor vindsnurra (vindkraftverk). Storleken är 150 meter för kroppen och 50 meter för bladen. Från mark till yttersta blad blir det 200 meter, lika högt som Nackamasterna. För att bladen ska börja snurra måste det blåsa i 4 m/s. Då börjar elektricitet genereras. Vid 13 m/s uppnås maxeffekten som oftast ligger på 2,5 MW. Börjar det blåsa för mycket - över 25 m/s - stängs vindkraftverken av för att förhindra slitage.</p>
-                </div>
-                <div id="Funktioner" class="tab-pane fade">
-                    <h3>Funktioner</h3>
-                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                </div>
-                <div id="Fakta" class="tab-pane fade">
-                    <h3>Fakta</h3>
-                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                </div>
-                <div id="Bilder" class="tab-pane fade">
-                    <h3>Bilder</h3>
-                    <div class="row">
-                        <div class="col-sm-6 col-md-3">
-                            <a href="img/vindkraftverk2.jpg" class="thumbnail">
-                                <img src="img/vindkraftverk2.jpg" alt="Generic placeholder thumbnail">
-                            </a>
-                        </div>
-
-                        <div class="col-sm-6 col-md-3">
-                            <a href="img/vindkraftverk3.jpg" class="thumbnail">
-                                <img src="img/vindkraftverk3.jpg" alt="Generic placeholder thumbnail">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div id="Övrigt" class="tab-pane fade">
-                    <h3>Övrigt</h3>
-                    <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
-                </div>
-                <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-                <script src="lib/jquery-2.2.2.min.js"></script>
-                <!-- Include all compiled plugins (below), or include individual files as needed -->
-                <script src="lib/bootstrap.min.js"></script>
+        <!-- Här har vi vår huvud produktbild -->
+        <div class="row">
+            <div class="col-xs-6 col-md-2">
+                <a href="img/vindkraftverk.jpg" class="thumbnail">
+                    <img src="img/vindkraftverk.jpg" alt="produktbild på ett vindkraftverk">
+                </a>
             </div>
         </div>
+
+        <!-- Här har vi mer information som användaren kan välja att läsa mer om, organiserat i tabbar -->
+        <ul class="nav nav-tabs" id="myTab">
+            <li role="presentation" class="active"><a href="#Beskrivning">Beskrivning</a></li>
+            <li role="presentation"><a href="#Funktioner">Funktioner</a></li>
+            <li role="presentation"><a href="#Fakta">Fakta</a></li>
+            <li role="presentation"><a href="#Bilder">Bilder</a></li>
+            <li role="presentation"><a href="#Övrigt">Övrigt</a></li>
+        </ul>
+
+        <!-- Här är innehållet i tabbarna som användaren ser när han väljer att läsa mer om produkten (klickar på en tabb) -->
+        <div class="tab-content">
+            <div id="Beskrivning" class="tab-pane fade in active">
+                <h3>Beskrivning</h3>
+                <p>Perfekt för att skapa elektricitet med hjälp av vinden. För att göra detta användes en stor vindsnurra (vindkraftverk). Storleken är 150 meter för kroppen och 50 meter för bladen. Från mark till yttersta blad blir det 200 meter, lika högt som Nackamasterna. För att bladen ska börja snurra måste det blåsa i 4 m/s. Då börjar elektricitet genereras. Vid 13 m/s uppnås maxeffekten som oftast ligger på 2,5 MW. Börjar det blåsa för mycket - över 25 m/s - stängs vindkraftverken av för att förhindra slitage.</p>
+            </div>
+            <div id="Funktioner" class="tab-pane fade">
+                <h3>Funktioner</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+            <div id="Fakta" class="tab-pane fade">
+                <h3>Fakta</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+            <div id="Bilder" class="tab-pane fade">
+
+                <!-- Lite extra produktbilder -->
+                <h3>Bilder</h3>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <a href="img/vindkraftverk2.jpg" class="thumbnail">
+                            <img src="img/vindkraftverk2.jpg" alt="Generic placeholder thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <a href="img/vindkraftverk3.jpg" class="thumbnail">
+                            <img src="img/vindkraftverk3.jpg" alt="Generic placeholder thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Övrigt" class="tab-pane fade">
+                <h3>Övrigt</h3>
+                <p>Vestibulum nec erat eu nulla rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="lib/jquery-2.2.2.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="lib/bootstrap.min.js"></script>
+        </div>
+    </div>
+    <!-- Ett script för att visa hur vi kan ändra informationen när man klickar på en tabb i vår prototyp -->
     <script type="text/javascript">
         $(document).ready(function () {
             $("#myTab a").click(function (e) {
