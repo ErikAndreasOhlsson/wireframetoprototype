@@ -14,7 +14,7 @@
     <link href="css/ekko-lightbox.min.css" rel="stylesheet">
 
 </head>
-<body>
+<body data-grid-framework="b3" data-grid-color="red" data-grid-opacity="0.2" data-grid-zindex="10" data-grid-gutterwidth="30px" data-grid-nbcols="16">
     <!-- Här är produkt presentations sidan -->
     <div class="container">
         <div class="page-header">
@@ -34,43 +34,41 @@
 
                 <ul class="breadcrumb">
                     <li><a href="index.html">Startsida</a></li>
-                    <li><a href="index.html">Electricitet</a></li>
+                    <li><a href="index.html">Elektricitet</a></li>
                     <li><a href="index.html">Vindkraftverk</a></li>
                 </ul>
 
             </div>
         </div>
-
         <h1>Smidigt vindkraftverk med bra effekt upptagning. 3MW</h1>
+        <!--<h1>Smidigt vindkraftverk med bra effekt upptagning. 3MW</h1>-->
         <!-- Här är mitten av produkt presentations sidan -->
         <div class="row">
             <!-- Här visar vi hur vår produkt ser ut -->
-            <div class="col-xs-6 col-sm-4 col-lg-2">
+            <div class="col-xs-4 col-sm-4 col-md-4">
                 <a href="img/vindkraftverk.jpg" class="thumbnail" data-toggle="lightbox">
                     <img src="img/vindkraftverk.jpg" alt="produktbild på ett vindkraftverk">
                 </a>
             </div>
 
-            <div class="col-md-7">
-            </div>
-
             <!-- Här är pris och man kan köpa produkten -->
-            <div class="col-xs-6 col-sm-4 col-lg-2">
-                <p class="lead text-right">32 Miljoner KR</p>
-                <form class="form-horizontal">
-                    <div class="form-group form-group-sm pull-right">
-                        <label class="col-sm-7 control-label" for="formGroupInputSmall">Antal</label>
-                        <div class="col-sm-5">
-                            <input class="form-control" type="text" id="formGroupInputSmall">
+            <div class="row col-xs-offset-7 col-sm-offset-8 col-md-offset-8">
+                <div class="col-xs-8 col-sm-8 col-md-8">
+                    <p class="lead text-right">32 Miljoner KR</p>
+                    <form class="form-horizontal">
+                        <div class="form-group form-group-sm pull-right">
+                            <label class="col-xs-5 col-sm-7 col-md-8 control-label" for="formGroupInputPrice">Antal</label>
+                            <div class="col-xs-7 col-sm-5 col-md-4">
+                                <input class="form-control" type="text" id="formGroupInputPrice">
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-6 col-sm-4 col-md-9 pull-right">
-                            <button type="button" class="btn btn-default btn-block">Köp</button>
+                        <div class="row">
+                            <div class="col-xs-9 col-sm-6 col-md-4 pull-right">
+                                <button type="button" class="btn btn-default btn-block">Köp</button>
+                            </div>
                         </div>
-                    </div>
-
-                </form>
+                    </form>
+                </div>
             </div>
         </div>
 
