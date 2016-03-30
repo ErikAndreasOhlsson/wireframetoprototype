@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#pageHolder {
+    width: 100wv;
+    height: 100vh;
+}
+
+.wireframeText {
+    text-align: center;
+}
+.headLine {
+    font-size: 300%;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+
+}
+.paragraphDescription {
+    font-size: 130%;
+}
+.myWireframePic{
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+}

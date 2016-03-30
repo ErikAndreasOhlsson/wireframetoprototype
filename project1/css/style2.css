@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#pageHolder {
+    width: 100vw;
+    height: 100vh;
+}
+.myModal .leftSide {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.myModal .rightSide {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.myModal {
+    margin: 0 auto;
+    width: 70vw;
+    height: 60vh;
+    border: 2px solid #21a1e1;
+}
+.awesome-form {
+    height: 100%;
+    width: auto;
+}
+input {
+  background: none;
+  border: solid 2px #21a1e1;
+  color: #21a1e1;
+  padding: 3% 6%;
+  font-size: 18px;
+}
+input:focus, input:active {
+  outline: none;
+}
+input[type="text"], input[type="email"] {
+  border: none;
+  border-bottom: solid 2px #21a1e1;
+}
+input[type="submit"] {
+  position: absolute;
+  left: 15%;
+  margin-top: 10%;
+  border-right: 2px solid #004870;
+  border-bottom: 2px solid #004870;
+  
+}
+input[type="submit"]:active {
+  color: white;
+  background: #21a1e1;
+  border-right: none;
+  border-bottom: none;
+  border-left: 2px solid #003b5c;
+  border-top: 2px solid #003b5c;
+  border-right: 2px solid rgba(0, 106, 165, 0.99);
+  border-bottom: 2px solid rgba(0, 106, 165, 0.99);
+}
+.input-group {
+  left: 10%;
+  top: 5%;
+  margin-top: 5%;
+  display: block;
+  position: relative;
+}
+.input-group input {
+  padding: 15px 0px;
+}
+.input-group label {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #999;
+  pointer-events: none;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+.input-group input:focus + label,
+.input-group input.has-value + label {
+  top: -4px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+.theText {
+    text-align: center;
+    font-size: 150%;
+}
+.priceText {
+    
+}
+.carImage {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: -20%;
+}
+
+/*textarea {
+    border: solid 2px #21a1e1;
+    color: #21a1e1;
+    font-size: 18px;
+    margin: 10% 0 0 8%;
+}
+textarea:focus, textarea:active {
+    outline: none;
+}
+
+.textAreaLabel {
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    left: 38px;
+    pointer-events: none;
+    font-size: 18px;
+    color: #aaa;
+    font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
+    font-style: italic;
+    -webkit-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+    
+}
+
+textarea:active +.textAreaLabel,
+textarea:focus +.textAreaLabel,
+textarea.hasValue +.textAreaLabel {
+    top: -240px;
+}*/
