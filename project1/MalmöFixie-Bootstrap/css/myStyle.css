@@ -1,0 +1,50 @@
+header {
+    background-image: url("../img/bike2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin-top: 10px;
+}
+
+.spacingOf10 {
+    margin-top: 20px;
+}
+#logoArea {
+    height: 80%;
+}
+#logoTextArea {
+    height: 20%;
+}
+#logoHolder {
+    height: 100%;
+    background-image: url("../img/MalmoeFixieLogo2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#logoText {
+    height: 20%;
+    margin-top: 17%;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+}
+#blackLogo {
+    background-image: url("../img/MalmoeFixieLogo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#logoTextInNav {
+    margin-left: 60px;
+}
+
+.avatarPic {
+    height: 100px;
+}
+
+.inRow {
+    display: inline-block;
+}
+
+.navbar {
+    z-index: 999;
+}
