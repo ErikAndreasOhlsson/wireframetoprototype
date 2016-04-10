@@ -50,63 +50,8 @@ header {
 }
 .half-height {
     height: 50%;
-    width: auto;
+    width: 100%;
     border: 2px solid black;
-}
-.overFloat {
-    height: 100px;
-    width: 20%;
-    background-color: #2aabd2;
-    opacity: 0.4;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-    border: 1px solid black;
-}
-.second {
-    margin-left: 20%;
-}
-.third {
-    margin-left: 40%;
-}
-.fourth {
-    margin-left: 60%;
-}
-.fifth {
-    margin-left: 80%;
-}
-.secondDown {
-    height: 100px;
-    width: 20%;
-    background-color: #2aabd2;
-    opacity: 0.4;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-    border: 1px solid black;
-    top: 100px;
-}
-.thirdDown {
-     height: 100px;
-     width: 20%;
-     background-color: #2aabd2;
-     opacity: 0.4;
-     position: absolute;
-     transition: 0.5s ease-in-out;
-     border: 1px solid black;
-     top: 200px;
- }
-.fourthDown {
-    height: 100px;
-    width: 20%;
-    background-color: #2aabd2;
-    opacity: 0.4;
-    position: absolute;
-    transition: 0.5s ease-in-out;
-    border: 1px solid black;
-    top: 300px;
-}
-.overFloat:hover, .secondDown:hover, .thirdDown:hover, .fourthDown:hover   {
-    opacity: 1;
-    cursor: pointer;
 }
 
 #myModal {
