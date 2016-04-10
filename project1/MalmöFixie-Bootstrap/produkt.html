@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- bootstrap default -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MalmöFixie</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Lightbox to display images in a modal-->
+    <link href="css/ekko-lightbox.min.css" rel="stylesheet">
+    <!-- Some prototyping styles-->
+    <link href="css/myprototype.css" rel="stylesheet" />
+	 <link href="css/myStyle.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Här är produkt presentations sidan -->
+        <main class="container-fluid">
+    <div class="row">
+        <header class="col-xs-12">
+            <div class="row" id="logoArea">
+                <div class="col-xs-3" id="logoHolder"></div>
+                <div class="col-xs-9">
+                    <h2 id="logoText">Malmö Fixie</h2>
+                </div>
+            </div>
+            <div class="row" id="logoTextArea">
+                <div class="col-xs-12">
+                    <nav class="navbar navbar-default">
+                        <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="index.html" id="blackLogo"><span id="logoTextInNav">Malmö Fixie</span></a>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="active"><a href="ourBikes.html">Our Bikes <span class="sr-only">(current)</span></a></li>
+                                    <li><a href="buildABike.html">Build a Bike</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+								<form class="navbar-form navbar-left" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Search">
+								</div>
+								<button type="submit" class="btn btn-default glyphicon glyphicon-search"></button>
+							</form>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+        <h1>MalmöFixie. FLOATER TWOSPEED RACE</h1>
+        <!-- Här är mitten av produkt presentations sidan -->
+        <div class="row">
+            <!-- Här visar vi hur vår produkt ser ut -->
+            <div class="col-xs-4 col-sm-4 col-md-4">
+                <a href="img/bike1.jpg" class="thumbnail" data-toggle="lightbox">
+                    <img src="img/bike1.jpg" alt="produktbild på en cykel">
+                </a>
+            </div>
+            
+            <!-- För att få lite luft mellan titeltext och köpbox, finns det bättre sätt så hojta till :-) -->
+            <div class="hidden-sm hidden-xs">&nbsp;</div>
+            <div class="hidden-sm hidden-xs">&nbsp;</div>
+
+            <!-- Här är pris och man kan köpa produkten -->
+                <div class="row col-xs-offset-6 col-sm-offset-8 col-md-offset-7">               
+                    <div class="col-xs-10 col-sm-10 col-md-4">                       
+                        <p class="lead text-right">7 595 KR</p>
+                        <form class="form-horizontal">
+                            <div class="form-group form-group-sm pull-right">
+                                <label class="col-xs-5 col-sm-7 col-md-8 control-label" for="formGroupInputPrice">Antal</label>
+                                <div class="col-xs-7 col-sm-5 col-md-4">
+                                    <input class="form-control" type="number" placeholder="1" id="formGroupInputPrice">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-9 col-sm-6 col-md-8 pull-right">
+                                    <button type="button" class="btn btn-default btn-block">Köp</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Här har vi mer information som användaren kan välja att läsa mer om, organiserat i tabbar -->
+        <ul class="nav nav-tabs" id="myTab">
+            <li role="presentation" class="active"><a href="#Beskrivning">Beskrivning</a></li>
+            <li role="presentation"><a href="#Funktioner">Funktioner</a></li>
+            <li role="presentation"><a href="#Fakta">Fakta</a></li>
+            <li role="presentation"><a href="#Bilder">Bilder</a></li>
+            <li role="presentation"><a href="#Övrigt">Övrigt</a></li>
+        </ul>
+
+        <!-- Här är innehållet i tabbarna som användaren ser när han väljer att läsa mer om produkten (klickar på en tabb) -->
+        <div class="tab-content">
+            <div id="Beskrivning" class="tab-pane fade in active">
+                <h3>Beskrivning</h3>
+                <p>MalmöFixie. Floater Twospeed RACE
+				Floater Twospeed RACE är samma fina cykel som den vanliga Floater Singlespeed men med en
+				 tvådelad navväxel och en sportigare geometri. Bockstyret ger dig en mer framåtlutad cykelposition så att du kan få mer kraft i tramptagen. Den är helt enkelt mer mångsidig och blir lättare att använda i vardagscyklingen. Passar perfekt att ha till och från jobbet eller bara som glassig stadscykel.
+
+				Aluminiumramen gör den lätt, kvick, styv och rolig att cykla på. Den kommer såklart med ett par pålitliga bromsar från Tektro och ett smalt styre som gör det lättare att kryssa fram genom staden! En riktigt cool fixie till lågt pris! 
+				Prod.nr: 379519
+				</p>
+            </div>
+            <div id="Funktioner" class="tab-pane fade">
+                <h3>Funktioner</h3>
+                <p>Vestibulum nec erat eu rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+            <div id="Fakta" class="tab-pane fade">
+                <h3>Fakta</h3>
+                <p>Vestibulum nec erat eu rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+            <div id="Bilder" class="tab-pane fade">
+
+                <!-- Lite extra produktbilder -->
+                <h3>Bilder</h3>
+                <div class="row">
+                    <div class="col-xs-6 col-sm-4 col-md-3">
+                        <a href="img/bike1.jpg" class="thumbnail" data-toggle="lightbox">
+                            <img src="img/bike1.jpg" alt="Generic placeholder thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3">
+                        <a href="img/bike1.jpg" class="thumbnail" data-toggle="lightbox">
+                            <img src="img/bike1.jpg" alt="Generic placeholder thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Övrigt" class="tab-pane fade">
+                <h3>Övrigt</h3>
+                <p>Vestibulum nec erat eu rhoncus fringilla ut non neque. Vivamus nibh urna, ornare id gravida ut, mollis a magna. Aliquam porttitor condimentum nisi, eu viverra ipsum porta ut. Nam hendrerit bibendum turpis, sed molestie mi fermentum id. Aenean volutpat velit sem. Sed consequat ante in rutrum convallis. Nunc facilisis leo at faucibus adipiscing.</p>
+            </div>
+
+            <!-- Creates the bootstrap modal where the image will appear -->
+            <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="#" id="imagepreview" style="width: 400px; height: 264px;" alt="modalbody">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			</div>
+
+
+    <div class="row spacingOf10">
+        <div class="col-xs-12 col-md-6">
+            <h3>Please enter your email to get our newsletter.</h3>
+            <form class="form-inline">
+                <div class="form-group">
+                    <label for="exampleInputEmail2">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                </div>
+                <button type="submit" class="btn btn-default">Send!</button>
+            </form>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <p>Lorem ipsum dolor sit amet, has ea quem inani, mea cu bonorum ponderum expetendis. Partem cetero liberavisse ea sea. Pertinax facilisis his cu, ad sed ridens commodo lucilius. Has te percipit scribentur dissentiunt. At latine menandri duo.
+
+                Ius dico iudico no. Nec eu oblique quaestio salutatus, ne qui nominavi scriptorem reformidans, et nam dolore audiam. Mea rebum bonorum fabulas at, no sit minim tollit efficiantur, duo denique fastidii periculis an. Sit graece audiam consequat ad.</p>
+
+        </div>
+    </div> <!-- end of container -->
+</main> <!--end of main row -->
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="js/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/ekko-lightbox.min.js"></script>
+
+    <!-- Script för att visa en bild i en modal -->
+    <script>
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+    <!-- Ett script för att visa hur vi kan ändra informationen när man klickar på en tabb i vår prototyp -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#myTab a").click(function (e) {
+                e.preventDefault();
+                $(this).tab('show');
+            });
+        });
+    </script>
+</body>
+</html>
