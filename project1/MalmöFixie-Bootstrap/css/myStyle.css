@@ -1,0 +1,106 @@
+header {
+    background-image: url("../img/bike2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin-top: 10px;
+}
+
+.spacingOf10 {
+    margin-top: 20px;
+}
+#logoArea {
+    height: 80%;
+}
+#logoTextArea {
+    height: 20%;
+}
+#logoHolder {
+    height: 100%;
+    background-image: url("../img/MalmoeFixieLogo2.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#logoText {
+    height: 20%;
+    margin-top: 17%;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+}
+#blackLogo {
+    background-image: url("../img/MalmoeFixieLogo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#logoTextInNav {
+    margin-left: 60px;
+}
+
+.avatarPic {
+    height: 100px;
+}
+
+.inRow {
+    display: inline-block;
+}
+
+.navbar {
+    z-index: 999;
+}
+.half-height {
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#myModal {
+    left: 30vw;
+    top: 30vh;
+    height: 35vh;
+    width: 50vw;
+}
+.red {
+    background-color: red;
+    height: 5vh;
+}
+.blue {
+    background-color: cornflowerblue;
+    height: 5vh;
+}
+.green {
+    background-color: forestgreen;
+    height: 5vh;
+}
+.grey {
+    background-color: darkgrey;
+    height: 5vh;
+}
+.yellow {
+    background-color: yellow;
+    height: 5vh;
+}
+.orange {
+    background-color: darkorange;
+    height: 5vh;
+}
+.white {
+    background-color: antiquewhite;
+    height: 5vh;
+}
+.black {
+    background-color: black;
+    height: 5vh;
+}
+
+.clickable {
+    cursor: pointer;
+}
+#fbLogo {
+    height: 100px;
+    width: auto;
+}
+#twitterLogo {
+    height: 100px;
+    width: auto;
+}
