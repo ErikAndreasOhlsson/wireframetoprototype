@@ -21,3 +21,18 @@ $(function () {
     });
 
 });
+
+
+$('.fb-share').on('click', function () {
+    event.preventDefault();
+   alert('A Facebook modal will pop up here!');
+});
+$('.twitter-share').on('click', function () {
+    event.preventDefault();
+    alert('A Twitter modal will pop up here!');
+});
+
+$('form').submit(function() {
+    alert('Your email is sent to the server!')
+    event.preventDefault();
+});

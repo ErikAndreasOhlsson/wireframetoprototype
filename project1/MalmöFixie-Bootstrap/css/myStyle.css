@@ -96,3 +96,11 @@ header {
 .clickable {
     cursor: pointer;
 }
+#fbLogo {
+    height: 100px;
+    width: auto;
+}
+#twitterLogo {
+    height: 100px;
+    width: auto;
+}
