@@ -57,8 +57,8 @@ header {
 #myModal {
     left: 30vw;
     top: 30vh;
-    height: 30vh;
-    width: 40vw;
+    height: 35vh;
+    width: 50vw;
 }
 .red {
     background-color: red;

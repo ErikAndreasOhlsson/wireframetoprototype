@@ -14,7 +14,7 @@ $(function () {
         $('#myModal').css('backgroundColor', x);
         $('#progressBar').removeClass('hidden');
         setTimeout(function() {
-            $('#myModal').modal('hide').css('backgroundColor', 'white');
+            $('#myModal').modal('hide').css('backgroundColor', 'transparent');
             $('#progressBar').addClass('hidden');
         }, 2000);
 
