@@ -48,3 +48,106 @@ header {
 .navbar {
     z-index: 999;
 }
+.half-height {
+    height: 50%;
+    width: auto;
+    border: 2px solid black;
+}
+.overFloat {
+    height: 100px;
+    width: 20%;
+    background-color: #2aabd2;
+    opacity: 0.4;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+}
+.second {
+    margin-left: 20%;
+}
+.third {
+    margin-left: 40%;
+}
+.fourth {
+    margin-left: 60%;
+}
+.fifth {
+    margin-left: 80%;
+}
+.secondDown {
+    height: 100px;
+    width: 20%;
+    background-color: #2aabd2;
+    opacity: 0.4;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+    top: 100px;
+}
+.thirdDown {
+     height: 100px;
+     width: 20%;
+     background-color: #2aabd2;
+     opacity: 0.4;
+     position: absolute;
+     transition: 0.5s ease-in-out;
+     border: 1px solid black;
+     top: 200px;
+ }
+.fourthDown {
+    height: 100px;
+    width: 20%;
+    background-color: #2aabd2;
+    opacity: 0.4;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    border: 1px solid black;
+    top: 300px;
+}
+.overFloat:hover, .secondDown:hover, .thirdDown:hover, .fourthDown:hover   {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#myModal {
+    left: 30vw;
+    top: 30vh;
+    height: 30vh;
+    width: 40vw;
+}
+.red {
+    background-color: red;
+    height: 5vh;
+}
+.blue {
+    background-color: cornflowerblue;
+    height: 5vh;
+}
+.green {
+    background-color: forestgreen;
+    height: 5vh;
+}
+.grey {
+    background-color: darkgrey;
+    height: 5vh;
+}
+.yellow {
+    background-color: yellow;
+    height: 5vh;
+}
+.orange {
+    background-color: darkorange;
+    height: 5vh;
+}
+.white {
+    background-color: antiquewhite;
+    height: 5vh;
+}
+.black {
+    background-color: black;
+    height: 5vh;
+}
+
+.clickable {
+    cursor: pointer;
+}
