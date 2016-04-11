@@ -33,6 +33,16 @@ $('.twitter-share').on('click', function () {
 });
 
 $('form').submit(function() {
-    alert('Your email is sent to the server!')
-    event.preventDefault();
+    var x = $('#exampleInputEmail2').val();
+    if(x.length > 0) {
+        alert('Your email is sent to the server!')
+        event.preventDefault();
+    } else {
+        alert('Oops something is missing..');
+        return false;
+    }
+});
+
+$('#searchBtn').on('click', function() {
+   alert('You searched for something');
 });
